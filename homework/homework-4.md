@@ -1,4 +1,4 @@
-**"Basic web stack (HTML for structure, CSS for styling, JS for interactivity)"**
+**"Basic web stack (HTML for structure, CSS for styling, JS for interactivity)" in plain HTML file**
 
 1. Locally on your laptop, extend the basic HTML page ("my-first.html" from the previous homework): Add a contact form "Contact Me" with fields for "First Name", "Last Name", "Age", "Email" and "Message" and "Submit" button. When the "Submit" button is clicked, make a validation if the input data is correct and print a message OKAY or NOT OKAY. 
 
