@@ -24,9 +24,7 @@ The validation should check:
   - https://www.w3schools.com/js/js_input_examples.asp
   - https://www.w3schools.com/js/tryit.asp?filename=tryjs_validation_number 
 
-2. Create a page or a post in your Wordpress site looking the same way as the latest version of your "my-first.html". And send me the link prior to our next meeting on Friday.
-
-3. Style your page with CSS: set a color scheme, center headings, add borders to sections, and make links change color on hover. Optional: Create a separate CSS file and link it to their HTML. Upload your latest version of "my-first.html" file to your github account and send the link prior to our next meeting on Friday.
+2. Style your page with CSS: set a color scheme, center headings, add borders to sections, and make links change color on hover. Optional: Create a separate CSS file and link it to their HTML. Upload your latest version of "my-first.html" file to your github account and send the link prior to our next meeting on Friday.
 
     **Resources:** 
 
