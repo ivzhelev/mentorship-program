@@ -1,3 +1,3 @@
-"Basic web stack (HTML for structure, CSS for styling, JS for interactivity)" in Wordpress
+**"Basic web stack (HTML for structure, CSS for styling, JS for interactivity)" in Wordpress**
 
 Create a page or a post in your Wordpress site looking the same way as the latest version of your "my-first.html" from [homework-4.md](homework-4.md). You can use free plugin for the Contact form. And send the link prior to our next meeting.
