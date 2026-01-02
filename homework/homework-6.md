@@ -18,10 +18,12 @@ Homework:
 2. Find one HTTP-only site
     - What warning appears?
 
-3. Create a new MD file in your github repository and there write down and explain there: 
+3. Create a new MD file in your github repository and there write down in few sentences and examples about: 
      - What is HTTP?
      - What is HTTPS?
      - What is SSL/TLS?
      - What are the Certificates all about – the identity card of a website. What is an SSL Certificate?
 
  4. Explain HTTPS to a parent in 3 sentences.
+ 
+ 5. Spend some time on enhancing the frontend of your **mentorship*.emanuil.bg** site (e.g. if relevent: choose more appropriate theme in Wordpress, add Gallery (if needed), add menu, think about domain name and whatever else you'd like to do in order to improve your site).
