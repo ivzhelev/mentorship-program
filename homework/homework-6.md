@@ -1,7 +1,7 @@
 **HTTP vs HTTPS, SSL/TLS, Certificates & Security for Your First Website**
 
 During creating your first website we didn’t configure SSL ourselves, but it’s there (we saw the Padlock and the Certificate details for **emanuil.bg**). HTTPS is very important especially if the site contains Login forms, 
-Contact forms, or Any user data.
+Contact forms, or Any user data. So our sites (under emanuil.bg domain) are automatically configured with HTTPS/SSL which the hosting company has already done for us.
 
 HTTP = postcard (anyone along the way can read it)
 HTTPS = sealed, locked envelope with ID check
