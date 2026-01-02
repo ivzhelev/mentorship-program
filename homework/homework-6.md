@@ -4,7 +4,9 @@ During creating your first website we didn’t configure SSL ourselves, but it�
 Contact forms, or Any user data. So our sites (under emanuil.bg domain) are automatically configured with HTTPS/SSL which the hosting company has already done for us.
 
 HTTP = postcard (anyone along the way can read it)
+
 HTTPS = sealed, locked envelope with ID check
+
 In 2026 → ~98%+ of web traffic is encrypted with HTTPS, and modern browsers (Chrome, Firefox) warn strongly or even block pure HTTP sites.
 
 <img width="646" height="281" alt="image" src="https://github.com/user-attachments/assets/00f2100c-779b-4964-8b50-627f3f929751" />
