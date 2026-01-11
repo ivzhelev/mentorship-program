@@ -4,7 +4,7 @@
 
 **Topics**:
 
-- Installing Python and an IDE (e.g., [VS Code](https://code.visualstudio.com/) or [PyCharm Community Edition](https://www.jetbrains.com/pycharm/download).
+- Installing Python and an IDE (e.g. [PyCharm Community Edition](https://www.jetbrains.com/pycharm/download) or [VS Code](https://code.visualstudio.com/).
 - [Variables](https://www.w3schools.com/python/python_variables.asp), [data types](https://www.w3schools.com/python/python_datatypes.asp) (strings, integers, lists, dictionaries),
   [basic operations](https://www.w3schools.com/python/python_operators.asp), [lists](https://www.w3schools.com/python/python_lists.asp)
 - Control structures: [if-else](https://www.w3schools.com/python/python_conditions.asp), loops ([for](https://www.w3schools.com/python/python_for_loops.asp)/[while](https://www.w3schools.com/python/python_while_loops.asp)).
