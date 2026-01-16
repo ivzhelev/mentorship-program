@@ -57,7 +57,7 @@
   - Accepts a dress description (e.g. "red floral")
   - Returns a mock store link, e.g. https://store.example.com/red-floral
 
-4. (Optional) Combined Mini-Project
+4. (Optional) **Combined Mini-Project**
 This version combines everything:
       ```
       def generate_store_link(description):
@@ -78,3 +78,6 @@ This version combines everything:
               print("Recommended brand:", brand)
               print("Product link:", generate_store_link(description))
       ```
+
+  5. (Optional) Check the ideas to be implemented here: https://trello.com/b/9qIfYKFU/it-ideas-board  
+  6. (Optional): [OpenCode](https://opencode.ai/) - think how we could use it for our project?
