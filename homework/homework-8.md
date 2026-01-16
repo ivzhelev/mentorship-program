@@ -22,4 +22,5 @@
 
 **Homework:** 
 - Expand the CSV with 10-20 real Bulgarian items (students research via web), and write a search function.
+- (Optional) Check the ideas to be implemented here: https://trello.com/b/9qIfYKFU/it-ideas-board  
 - (Optional): [OpenCode](https://opencode.ai/) - think how we could use it for our project?
