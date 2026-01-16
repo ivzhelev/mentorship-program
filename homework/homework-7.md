@@ -30,7 +30,7 @@
       "Sinsay": ["casual", "sport"]
     }
     ```
-  - Ask for color and style
+  - Ask for style
   - Use if/else to suggest a brand
   - Allow multiple attempts using a loop
 3. Create a **function** that: 
