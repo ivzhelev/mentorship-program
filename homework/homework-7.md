@@ -36,4 +36,3 @@
 3. Create a **function** that: 
   - Accepts a dress description (e.g. "red floral")
   - Returns a mock store link, e.g. https://store.example.com/red-floral
-4. (Optional) Check the ideas to be implemented here: https://trello.com/b/9qIfYKFU/it-ideas-board  
