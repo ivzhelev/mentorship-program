@@ -19,5 +19,6 @@
 - Real Python tutorials on lists/dicts and file handling.
 - Practice on LeetCode easy problems (e.g., array manipulation).
 
-**Homework:** Expand the CSV with 10-20 real Bulgarian items (students research via web), and write a search function.
-(Optional): OpenCode - think how we could use it for our project?
+**Homework:** 
+- Expand the CSV with 10-20 real Bulgarian items (students research via web), and write a search function.
+- (Optional): [OpenCode](https://opencode.ai/) - think how we could use it for our project?
