@@ -33,7 +33,8 @@
   - Ask for style
   - Use if/else to suggest a brand
   - Allow multiple attempts using a loop
-  Hint: 
+
+    **Hint:** 
       ```
       while True:
         style = input("Enter clothing style (or 'exit' to quit): ").lower()
