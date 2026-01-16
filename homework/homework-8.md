@@ -1,6 +1,7 @@
 **Data Handling and Libraries – Working with Files and Data**
 
 **Goal:** Introduce data structures relevant to the app (e.g., storing clothing info).
+
 **Topics:**
 
 - Lists, dictionaries, and sets for organizing data.
