@@ -80,4 +80,3 @@ This version combines everything:
       ```
 
   5. (Optional) Check the ideas to be implemented here: https://trello.com/b/9qIfYKFU/it-ideas-board  
-  6. (Optional): [OpenCode](https://opencode.ai/) - think how we could use it for our project?
