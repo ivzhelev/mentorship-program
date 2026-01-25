@@ -136,15 +136,17 @@ This simulates the **frontend of the Clothing Recommender app**.
        <br> Now you can choose an image with a cloth and then click `Upload`. <br>
        You should see the same image in the browser and also it should be stored under `static/uploads`: <br>
        <img width="415" height="332" alt="image" src="https://github.com/user-attachments/assets/c909f8ed-6915-4941-824a-318b00401605" />
-       Now try to understand what just happened and how this worked. Upload some more clothes to the backend.
+       <br>Now try to understand what just happened and how this worked. Upload some more clothes to the backend.
 
 **Resources**
   - Flask Quickstart (official docs)
   - Corey Schafer – Flask playlist (YouTube)
   - W3Schools – HTML forms & file input
 
-3. **Homework**
-  **3.1. Task 1: Display Clothing from CSV**
+
+---
+**HOMEWORK**
+  - **Task 1**: Display Clothing from CSV
     Add a new route /clothes that:
     - Reads data from clothes.csv
     - Displays clothing items in an HTML table or list
@@ -154,23 +156,27 @@ This simulates the **frontend of the Clothing Recommender app**.
       - Price
       - Category
 
-  **3.2. Task 2: Navigation**
+  - **Task 2**: Navigation
     Add a navigation menu visible on all pages: <br>
     - “Upload Photo” -> `/` <br>
     - “View Clothes” -> `clothes` <br>
     - Filter by Category: Add a dropdown to filter clothes by category. <br>
-    Hint: Create a Base Template with Navigation (`templates/base.html`), update the Upload Page (`templates/index.html`) to Use Navigation (`base.html`). Add the “View Clothes” Page (it should also use `base.html`). Add the `/clothes` route in `app.py`. Now the Project Structure should look like: <br>
-    
-    flask_clothing_app/
-    │
-    ├── app.py
-    ├── clothes.csv
-    ├── templates/
-    │   ├── base.html
-    │   ├── index.html
-    │   └── clothes.html
-    └── static/
-        └── uploads/
-
+    **Hints**: Create a Base Template with Navigation (`templates/base.html`). <br>
+    Update the Upload Page (`templates/index.html`) to Use Navigation (`base.html`). <br>
+    Add the “View Clothes” Page (it should also use `base.html`). <br>
+    Add the `/clothes` route in `app.py`. <br>
+    Now the Project Structure should look like: <br>
+      ```
+      flask_clothing_app/
+      │
+      ├── app.py
+      ├── clothes.csv
+      ├── templates/
+      │   ├── base.html
+      │   ├── index.html
+      │   └── clothes.html
+      └── static/
+          └── uploads/
+      ```
 ---
 - (Optional): [OpenCode](https://opencode.ai/) - think how we could use it for our project?
