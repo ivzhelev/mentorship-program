@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Upload a Dress Photo</h1>
+
+<form method="POST" enctype="multipart/form-data">
+    <input type="file" name="photo" accept="image/*" required>
+    <button type="submit">Upload</button>
+</form>
+
+{% if filename %}
+    <h2>Uploaded Image</h2>
+    <p>🔍 Searching for matches...</p>
+    <img src="{{ url_for('static', filename='uploads/' + filename) }}" width="300">
+{% endif %}
+{% endblock %}
