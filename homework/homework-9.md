@@ -146,8 +146,8 @@ This simulates the **frontend of the Clothing Recommender app**.
 
 ---
 **HOMEWORK**
-  - **Task 1**: Display Clothing from CSV
-    Add a new route /clothes that:
+  - **Task 1**: Display Clothing from CSV <br>
+    Add a new route `/clothes` that:<br>
     - Reads data from clothes.csv
     - Displays clothing items in an HTML table or list
     - Shows:
