@@ -161,7 +161,8 @@ This simulates the **frontend of the Clothing Recommender app**.
     - “Upload Photo” -> `/` <br>
     - “View Clothes” -> `clothes` <br>
     - Filter by Category: Add a dropdown to filter clothes by category. <br>
-    **Hints**: Create a Base Template with Navigation (`templates/base.html`). <br>
+    
+    **Homework hints**: Create a Base Template with Navigation (`templates/base.html`). <br>
     Update the Upload Page (`templates/index.html`) to Use Navigation (`base.html`). <br>
     Add the “View Clothes” Page (it should also use `base.html`). <br>
     Add the `/clothes` route in `app.py`. <br>
@@ -179,4 +180,4 @@ This simulates the **frontend of the Clothing Recommender app**.
           └── uploads/
       ```
 ---
-- (Optional): [OpenCode](https://opencode.ai/) - think how we could use it for our project?
+- (Optional): [OpenCode](https://opencode.ai/) - think how we could use it for our project? For example, this is photo, what dress you would recommend me (color, model, style etc.), would that dress would fit me etc.?
