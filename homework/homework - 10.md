@@ -113,12 +113,21 @@ clothing-recommender/
 ---
 
 **Homework:**
-1. **Dominant color detection**
+When Uploading a Dress Photo at at http://127.0.0.1:5000/, detect:   
+1. **Dominant color detection** (almost implemented at https://github.com/ivzhelev/mentorship-program/tree/main/clothing-recommender)
   - Extract average RGB
   - Map to at least 5 colors:
-    - red, blue, green, black, white 
+    - red, blue, green, black, white
 
 2. **CSV matching**
-
     - Add **color** and **pattern** columns to **clothes.csv**
-    - Filter results based on detected features
+    - Apart from the color detection, also detect the pattern of the uploaded dress photo. 
+    - Using the detected color and pattern, display the closest matching Cloth Found from the **clothes.csv** (together with the link and the price of the cloth)
+
+**Hint about pattern detection:**
+- Convert image to grayscale
+- Compare pixel differences row-by-row
+- Rule:
+  - Low variation → solid
+  - High regular variation → striped
+  Confidence message: `"This looks like a red striped dress (70% confidence)"`
