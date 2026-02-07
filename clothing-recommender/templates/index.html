@@ -8,9 +8,18 @@
     <button type="submit">Upload</button>
 </form>
 
-{% if filename %}
-    <h2>Uploaded Image</h2>
-    <p>🔍 Searching for matches...</p>
-    <img src="{{ url_for('static', filename='uploads/' + filename) }}" width="300">
+{% if color %}
+        <h3>Detected Color: {{ color }}</h3>
 {% endif %}
+
+{% if cloth %}
+    <h3>Matching Cloth Found:</h3>
+    <p><strong>Name:</strong> {{ cloth.name }}</p>
+    <p><strong>Color:</strong> {{ cloth.color }}</p>
+    <p><strong>Type:</strong> {{ cloth.type }}</p>
+    {% if cloth.image_path %}
+        <img src="{{ url_for('static', filename=cloth.image_path) }}" width="300">
+    {% endif %}
+{% endif %}
+
 {% endblock %}
