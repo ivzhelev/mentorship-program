@@ -10,6 +10,9 @@ app = Flask(__name__)
 UPLOAD_FOLDER = "static/uploads"
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
+# Ensure upload folder exists
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+
 
 @app.route("/", methods=["GET", "POST"])
 def home():
@@ -24,7 +27,13 @@ def home():
             file.save(pathname)
             result = run_visual_search(pathname)
 
-    return render_template("index.html", filename=filename,color=result["detected_color"] if result else None, cloth=result["matches"][0] if result and result["matches"] else None)
+    return render_template(
+        "index.html",
+        filename=filename,
+        color=result["detected_color"] if result else None,
+        pattern=result["detected_pattern"] if result else None,
+        matches=result["matches"] if result else None
+    )
 
 
 @app.route("/clothes")
@@ -49,17 +58,24 @@ def view_clothes():
         selected_category=selected_category,
     )
 
+
 def run_visual_search(image_path):
+    """Analyze image and find matching clothes"""
     analysis = detect_color(image_path)
     color = analysis["color"]
+    pattern = analysis["pattern"]
 
     clothes = load_clothes()
     matches = find_by_color(color, clothes)
 
     return {
         "detected_color": color,
+        "detected_pattern": pattern,
         "matches": matches
     }
 
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    print("Starting Clothing Recommender App...")
+    print("Open http://localhost:5001 in your browser")
+    app.run(debug=True, port=5001)

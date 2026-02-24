@@ -1,25 +1,47 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Upload a Dress Photo</h1>
+<h1>Upload a Clothing Photo</h1>
 
 <form method="POST" enctype="multipart/form-data">
     <input type="file" name="photo" accept="image/*" required>
-    <button type="submit">Upload</button>
+    <button type="submit">Analyze</button>
 </form>
 
-{% if color %}
-        <h3>Detected Color: {{ color }}</h3>
+{% if filename %}
+<div style="margin-top: 20px;">
+    <h3>Uploaded Image:</h3>
+    <img src="{{ url_for('static', filename='uploads/' + filename) }}" width="200" style="border: 1px solid #ccc;">
+</div>
 {% endif %}
 
-{% if cloth %}
-    <h3>Matching Cloth Found:</h3>
-    <p><strong>Name:</strong> {{ cloth.name }}</p>
-    <p><strong>Color:</strong> {{ cloth.color }}</p>
-    <p><strong>Type:</strong> {{ cloth.type }}</p>
-    {% if cloth.image_path %}
-        <img src="{{ url_for('static', filename=cloth.image_path) }}" width="300">
+{% if color %}
+<div style="margin-top: 20px;">
+    <h3>Detected Color: {{ color }}</h3>
+    {% if pattern %}
+    <h3>Detected Pattern: {{ pattern }}</h3>
     {% endif %}
+</div>
 {% endif %}
+
+{% if matches %}
+<div style="margin-top: 20px;">
+    <h3>Matching Items ({{ matches|length }}):</h3>
+    <ul>
+    {% for item in matches %}
+        <li>
+            <strong>{{ item.name }}</strong> - {{ item.brand }} - {{ item.price_bgn }} BGN
+            <a href="{{ item.link }}" target="_blank">[View]</a>
+        </li>
+    {% endfor %}
+    </ul>
+</div>
+{% elif color %}
+<div style="margin-top: 20px;">
+    <p>No matching items found for color: {{ color }}</p>
+</div>
+{% endif %}
+
+<p style="margin-top: 30px;"><a href="/clothes">Browse All Clothes</a></p>
 
 {% endblock %}
