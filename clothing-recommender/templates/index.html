@@ -8,6 +8,12 @@
     <button type="submit">Analyze</button>
 </form>
 
+{% if error %}
+<div style="margin-top: 20px; padding: 10px; background-color: #ffcccc; border: 1px solid #cc0000; border-radius: 5px;">
+    <strong>Error:</strong> {{ error }}
+</div>
+{% endif %}
+
 {% if filename %}
 <div style="margin-top: 20px;">
     <h3>Uploaded Image:</h3>
@@ -16,21 +22,39 @@
 {% endif %}
 
 {% if color %}
-<div style="margin-top: 20px;">
-    <h3>Detected Color: {{ color }}</h3>
+<div style="margin-top: 20px; padding: 15px; background-color: #f5f5f5; border-radius: 5px;">
+    <h3>Analysis Results</h3>
+    <p><strong>Detected Color:</strong> {{ color }}</p>
     {% if pattern %}
-    <h3>Detected Pattern: {{ pattern }}</h3>
+    <p><strong>Detected Pattern:</strong> {{ pattern }}</p>
+    {% endif %}
+    {% if category and category != 'unknown' %}
+    <p><strong>Detected Category (AI):</strong> {{ category }}</p>
+    {% endif %}
+    
+    {% if ml_predictions %}
+    <details style="margin-top: 10px;">
+        <summary><strong>AI Predictions (MobileNetV2)</strong></summary>
+        <ul style="margin-top: 5px;">
+        {% for label, score in ml_predictions %}
+            <li>{{ label }}: {{ "%.1f"|format(score * 100) }}%</li>
+        {% endfor %}
+        </ul>
+    </details>
     {% endif %}
 </div>
 {% endif %}
 
 {% if matches %}
 <div style="margin-top: 20px;">
-    <h3>Matching Items ({{ matches|length }}):</h3>
+    <h3>Top Matching Items ({{ matches|length }}):</h3>
     <ul>
     {% for item in matches %}
-        <li>
+        <li style="margin-bottom: 10px;">
             <strong>{{ item.name }}</strong> - {{ item.brand }} - {{ item.price_bgn }} BGN
+            {% if item.score is defined %}
+            <span style="color: #666;">(match score: {{ item.score }})</span>
+            {% endif %}
             <a href="{{ item.link }}" target="_blank">[View]</a>
         </li>
     {% endfor %}
@@ -38,7 +62,24 @@
 </div>
 {% elif color %}
 <div style="margin-top: 20px;">
-    <p>No matching items found for color: {{ color }}</p>
+    <p>No matching items found for: {{ color }}{% if category and category != 'unknown' %} {{ category }}{% endif %}</p>
+</div>
+{% endif %}
+
+{% if similar_images %}
+<div style="margin-top: 20px; padding: 15px; background-color: #e8f4e8; border-radius: 5px;">
+    <h3>Similar Images in Database:</h3>
+    <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+    {% for img in similar_images %}
+        <div style="text-align: center;">
+            <img src="{{ url_for('static', filename='uploads/' + img.item_id) }}" 
+                 width="100" style="border: 1px solid #ccc; border-radius: 5px;">
+            <p style="margin: 5px 0; font-size: 12px;">
+                {{ "%.1f"|format(img.similarity * 100) }}% similar
+            </p>
+        </div>
+    {% endfor %}
+    </div>
 </div>
 {% endif %}
 
