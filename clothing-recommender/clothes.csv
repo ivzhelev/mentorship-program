@@ -1,28 +1,28 @@
 name,color,brand,price_bgn,category,link
-Red Summer Dress,red,Sinsay,79.99,dress,https://www.sinsay.com/bg/bg/woman/woman-clothes-dresses
-Blue Floral Dress,blue,Zara,99.90,dress,https://www.zara.com/bg/en/woman-dresses-l1066.html
-Black Evening Dress,black,Zara,149.99,dress,https://www.zara.com/bg/en/woman-dresses-l1066.html
-Green Casual Dress,green,Sinsay,59.99,dress,https://www.sinsay.com/bg/bg/woman/woman-clothes-dresses
-Orange Party Dress,orange,Zara,89.99,dress,https://www.zara.com/bg/en/woman-dresses-l1066.html
-Pink Summer Dress,pink,Sinsay,69.99,dress,https://www.sinsay.com/bg/bg/woman/woman-clothes-dresses
-White Wedding Dress,white,Zara,299.99,dress,https://www.zara.com/bg/en/woman-dresses-l1066.html
-Purple Cocktail Dress,purple,Sinsay,99.99,dress,https://www.sinsay.com/bg/bg/woman/woman-clothes-dresses
-Yellow Sundress,yellow,Zara,79.99,dress,https://www.zara.com/bg/en/woman-dresses-l1066.html
-Gray Office Dress,gray,Teodor,129.00,dress,https://www.teodor.bg/zheni/obleklo/rokli
-Blue Denim Jacket,blue,Sinsay,89.99,jacket,https://www.sinsay.com/bg/bg/woman/woman-clothes-blazers-jacketscoats
-Black Leather Jacket,black,Zara,199.99,jacket,https://www.zara.com/bg/en/woman-jackets-l1536.html
-Red Blazer,red,Teodor,159.00,jacket,https://www.teodor.bg/zheni/obleklo/saketa
-Green Army Jacket,green,Sinsay,99.99,jacket,https://www.sinsay.com/bg/bg/woman/woman-clothes-blazers-jacketscoats
-White Cotton Shirt,white,Zara,59.99,shirt,https://www.zara.com/bg/en/woman-shirts-l1217.html
-Blue Casual Shirt,blue,Sinsay,49.99,shirt,https://www.sinsay.com/bg/bg/woman/woman-clothes-shirts
-Pink Blouse,pink,Zara,69.99,shirt,https://www.zara.com/bg/en/woman-shirts-l1217.html
-Black T-Shirt,black,Sinsay,24.99,tshirt,https://www.sinsay.com/bg/bg/woman/woman-clothes-tshirts
-White T-Shirt,white,Sinsay,24.99,tshirt,https://www.sinsay.com/bg/bg/woman/woman-clothes-tshirts
-Red T-Shirt,red,Sinsay,24.99,tshirt,https://www.sinsay.com/bg/bg/woman/woman-clothes-tshirts
-Blue T-Shirt,blue,Sinsay,24.99,tshirt,https://www.sinsay.com/bg/bg/woman/woman-clothes-tshirts
-Green Hoodie,green,Sinsay,49.99,hoodie,https://www.sinsay.com/bg/bg/woman/woman-clothes-sweatshirts
-Black Hoodie,black,Sinsay,49.99,hoodie,https://www.sinsay.com/bg/bg/woman/woman-clothes-sweatshirts
-Gray Hoodie,gray,Sinsay,49.99,hoodie,https://www.sinsay.com/bg/bg/woman/woman-clothes-sweatshirts
-Blue Summer Skirt,blue,Zara,69.99,skirt,https://www.zara.com/bg/en/woman-skirts-l1299.html
-Red Mini Skirt,red,Sinsay,39.99,skirt,https://www.sinsay.com/bg/bg/woman/woman-clothes-skirts
-Black Pencil Skirt,black,Zara,79.99,skirt,https://www.zara.com/bg/en/woman-skirts-l1299.html
+Red Summer Dress,red,Sinsay,79.99,dress,https://www.sinsay.com/bg/bg/zheni/drehi/rokli/c/cherven
+Blue Floral Dress,blue,Zara,99.90,dress,https://www.zara.com/bg/en/search?searchTerm=blue%20dress&section=WOMAN
+Black Evening Dress,black,Zara,149.99,dress,https://www.zara.com/bg/en/search?searchTerm=black%20dress&section=WOMAN
+Green Casual Dress,green,Sinsay,59.99,dress,https://www.sinsay.com/bg/bg/zheni/drehi/rokli/c/zelen
+Orange Party Dress,orange,Zara,89.99,dress,https://www.zara.com/bg/en/search?searchTerm=orange%20dress&section=WOMAN
+Pink Summer Dress,pink,Sinsay,69.99,dress,https://www.sinsay.com/bg/bg/zheni/drehi/rokli/c/rozov
+White Wedding Dress,white,Zara,299.99,dress,https://www.zara.com/bg/en/search?searchTerm=white%20dress&section=WOMAN
+Purple Cocktail Dress,purple,Sinsay,99.99,dress,https://www.sinsay.com/bg/bg/zheni/drehi/rokli/c/lilav
+Yellow Sundress,yellow,Zara,79.99,dress,https://www.zara.com/bg/en/search?searchTerm=yellow%20dress&section=WOMAN
+Gray Office Dress,gray,Zara,129.00,dress,https://www.zara.com/bg/en/search?searchTerm=grey%20dress&section=WOMAN
+Blue Denim Jacket,blue,Sinsay,89.99,jacket,https://www.sinsay.com/bg/bg/zheni/drehi/vrahni-drehi/c/cin
+Black Leather Jacket,black,Zara,199.99,jacket,https://www.zara.com/bg/en/search?searchTerm=black%20jacket&section=WOMAN
+Red Blazer,red,Zara,159.00,jacket,https://www.zara.com/bg/en/search?searchTerm=red%20blazer&section=WOMAN
+Green Army Jacket,green,Sinsay,99.99,jacket,https://www.sinsay.com/bg/bg/zheni/drehi/vrahni-drehi/c/zelen
+White Cotton Shirt,white,Zara,59.99,shirt,https://www.zara.com/bg/en/search?searchTerm=white%20shirt&section=WOMAN
+Blue Casual Shirt,blue,Sinsay,49.99,shirt,https://www.sinsay.com/bg/bg/zheni/drehi/rizi/c/cin
+Pink Blouse,pink,Zara,69.99,shirt,https://www.zara.com/bg/en/search?searchTerm=pink%20blouse&section=WOMAN
+Black T-Shirt,black,Sinsay,24.99,tshirt,https://www.sinsay.com/bg/bg/zheni/drehi/teniski/c/cheren
+White T-Shirt,white,Sinsay,24.99,tshirt,https://www.sinsay.com/bg/bg/zheni/drehi/teniski/c/byal
+Red T-Shirt,red,Sinsay,24.99,tshirt,https://www.sinsay.com/bg/bg/zheni/drehi/teniski/c/cherven
+Blue T-Shirt,blue,Sinsay,24.99,tshirt,https://www.sinsay.com/bg/bg/zheni/drehi/teniski/c/cin
+Green Hoodie,green,Sinsay,49.99,hoodie,https://www.sinsay.com/bg/bg/zheni/drehi/bluzi/c/zelen
+Black Hoodie,black,Sinsay,49.99,hoodie,https://www.sinsay.com/bg/bg/zheni/drehi/bluzi/c/cheren
+Gray Hoodie,gray,Sinsay,49.99,hoodie,https://www.sinsay.com/bg/bg/zheni/drehi/bluzi/c/siv
+Blue Summer Skirt,blue,Zara,69.99,skirt,https://www.zara.com/bg/en/search?searchTerm=blue%20skirt&section=WOMAN
+Red Mini Skirt,red,Sinsay,39.99,skirt,https://www.sinsay.com/bg/bg/zheni/drehi/poli/c/cherven
+Black Pencil Skirt,black,Zara,79.99,skirt,https://www.zara.com/bg/en/search?searchTerm=black%20skirt&section=WOMAN
